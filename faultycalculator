@@ -1,0 +1,26 @@
+print("Enter your first number")
+a = int(input())
+print("Enter your second number")
+b = int(input())
+print("Enter your operator")
+o = input()
+if o == "*" :
+    if a*b == 45*3:
+        print("555")
+    else:
+        print(a*b)
+elif o== "+":
+    if a+b == 56+9 :
+        print("77")
+    else:
+        print(a+b)
+elif o == "/":
+    if a/b ==56/6:
+        print("4")
+    else:
+        print(a/b)
+
+elif o == "-":
+    print(a-b)
+else:
+    print("Thankyou for using this calculator")

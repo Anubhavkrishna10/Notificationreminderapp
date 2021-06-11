@@ -1,0 +1,12 @@
+import time
+from plyer import notification
+
+if __name__== "__main__":
+   
+    notification.notify(
+      title = "**please drink water now!!",
+      message = "Most experts suggest that you drink five to eight glasses of water per day.Those who live in hot weather climates should drink even more to stay properly hydrated.",
+      app_icon ="F:\icon",
+      timeout = 10     
+    )
+    time.sleep(60)
